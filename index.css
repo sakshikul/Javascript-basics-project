@@ -1,0 +1,15 @@
+#container {
+   height: 680px;
+   width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container__button button{
+    background-color:blue;
+    border:none;
+    padding: 10px 20px 10px 20px;
+    color:white;
+    
+}

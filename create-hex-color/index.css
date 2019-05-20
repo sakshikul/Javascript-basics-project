@@ -1,0 +1,19 @@
+.container{
+    height:460px;
+}
+ .container__text-block{
+   text-align: center;
+   margin-top:200px;
+}
+.container__text-block--heading{
+    font-size : 50px;
+    color: purple;
+
+}
+.container__text-block--btn{
+    border:none;
+    background-color: brown;
+    color:white;
+    padding:20px 30px 20px 30px;
+    font-size: 17px;
+}

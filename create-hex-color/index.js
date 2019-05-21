@@ -7,9 +7,9 @@ function getHexValue(){
     let hastag = "#";
   for(let i = 0; i < 6; i++){
      let getValue = Math.floor(Math.random() * value.length);
-     console.log(getValue);
+     
      hastag = hastag + value[getValue];
-     console.log(hastag);
+     
   }
   document.querySelector('.container__text-block--heading').innerHTML = "The hex color is : " + hastag;
 
